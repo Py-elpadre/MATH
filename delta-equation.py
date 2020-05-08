@@ -3,8 +3,8 @@ from math import sqrt
 print("Bonjour ! Nous allons resoudre une equation du second degré")
 
 a = int(input("Quelle est la valeur de a ?"))
-b = float(input("Quelle est la valeur de b ?"))
-c = float(input("Quelle est la valeur de c ?"))
+b = int(input("Quelle est la valeur de b ?"))
+c = int(input("Quelle est la valeur de c ?"))
 
 delta = b**2 - 4*a*c
 
